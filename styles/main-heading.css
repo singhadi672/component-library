@@ -255,6 +255,11 @@ code {
     font-weight: 500;
   }
 
+  .card-desc {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
   .creator-section > h1 {
     font-size: 2rem;
   }
