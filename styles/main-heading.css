@@ -77,7 +77,7 @@
 }
 
 .result {
-  width: 400px;
+  width: 35%;
   height: 90%;
   background-color: white;
   position: relative;
@@ -219,4 +219,51 @@ code {
   color: rgb(40, 152, 180);
   font-weight: 600;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1118px) {
+  .heading-main {
+    margin: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .code {
+    display: none;
+  }
+
+  .heading-sample {
+    margin: 2rem 0rem;
+  }
+
+  .result {
+    width: 70%;
+    height: 95%;
+  }
+
+  .heading-main > header > h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+  }
+
+  .heading-main > header > p {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 2.5rem 0rem 1rem 0rem;
+    color: #798188;
+    font-weight: 500;
+  }
+
+  .creator-section > h1 {
+    font-size: 2rem;
+  }
+  .creator-desc {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2.5rem 0rem 2rem 0rem;
+    color: #798188;
+    font-weight: 500;
+    text-align: center;
+  }
 }
