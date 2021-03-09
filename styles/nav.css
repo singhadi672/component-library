@@ -77,28 +77,24 @@
   color: rgb(170, 165, 165);
 }
 
-
-@media screen and (max-width:995px){
-
-  nav{
+@media screen and (max-width: 995px) {
+  nav {
     flex-direction: column;
   }
 
-  .nav{
+  .nav {
     margin: 1rem 1rem;
   }
 
   .search-field {
-  width: 80%;
-  padding-left: 0.5rem;
-  border: none;
-  font-size: 1rem;
-}
+    width: 80%;
+    padding-left: 0.5rem;
+    border: none;
+    font-size: 1rem;
+  }
 
-.version {
-  font-size: 0.7rem;
-  color: rgb(170, 165, 165);
-}
-
-
+  .version {
+    font-size: 0.7rem;
+    color: rgb(170, 165, 165);
+  }
 }

@@ -1,25 +1,32 @@
-body {
-  overflow-y: hidden;
-}
 .components-nav {
+  grid-area: a;
   position: fixed;
-  width: 88%;
-  z-index: 1;
+  background: white;
+  width: 99%;
+  top: 0;
+  z-index: 900;
+  margin: 0rem 1rem;
 }
 
 .components-main {
   display: grid;
   grid-template-columns: 0.25fr 1fr;
-  height: 100vh;
-  position: relative;
-  top: 6.4rem;
   column-gap: 1rem;
+  grid-template-areas:
+    "a a a"
+    "b c c"
+    "b c c";
 }
 
 .navigation {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border-top-right-radius: 25px;
+  grid-area: b;
+  position: fixed;
+  top: 8rem;
+  width: 20%;
 }
 
 .navigation a {
@@ -42,14 +49,35 @@ body {
   color: white;
 }
 .nav-background2:hover {
-    background: linear-gradient(120deg, #ff00ff, purple);
-    color: white;
+  background: linear-gradient(120deg, #ff00ff, purple);
+  color: white;
 }
 .nav-background3:hover {
-    background: linear-gradient(120deg, rgb(112, 252, 94), cyan);
+  background: linear-gradient(120deg, rgb(112, 252, 94), cyan);
   color: white;
 }
 .nav-background4:hover {
   background: linear-gradient(120deg, rgb(243, 243, 10), orange);
   color: white;
+}
+
+.components-samples {
+  padding: 1rem;
+  background: rgb(209, 205, 205);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-top: 7rem;
+  grid-area: c;
+}
+
+.component-sample-heading {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.components {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 3rem;
 }

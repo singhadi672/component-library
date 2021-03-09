@@ -3,6 +3,7 @@
 @import "main-heading.css";
 @import "content.css";
 @import "components-page.css";
+@import "cards-all.css";
 
 * {
   margin: 0;
