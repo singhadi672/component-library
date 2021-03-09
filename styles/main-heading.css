@@ -32,9 +32,12 @@
   font-weight: 500;
   background: #232831;
   border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
 }
 .button {
   margin: 2rem;
+  
 }
 
 .heading-sample {

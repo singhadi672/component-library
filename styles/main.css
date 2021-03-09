@@ -2,6 +2,7 @@
 @import "nav.css";
 @import "main-heading.css";
 @import "content.css";
+@import "components-page.css";
 
 * {
   margin: 0;
