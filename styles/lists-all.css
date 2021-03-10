@@ -59,3 +59,22 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+.component-list3 > ol {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+}
+
+.component-list3 > ol > li {
+  font-size: 2.1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.component-list3 > ol > li:hover {
+  color: rgb(11, 255, 255);
+}
