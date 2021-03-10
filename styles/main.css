@@ -4,6 +4,8 @@
 @import "content.css";
 @import "components-page.css";
 @import "cards-all.css";
+@import "avatars-all.css";
+@import "lists-all.css";
 
 * {
   margin: 0;
