@@ -78,3 +78,78 @@
 .component-list3 > ol > li:hover {
   color: rgb(11, 255, 255);
 }
+
+/* CSS FOR LIST 4 */
+
+.component-list4 {
+  width: 80%;
+  height: 400px;
+  background: linear-gradient(120deg, rgb(248, 232, 3), #ffbb00);
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.component-list4 > ol {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  color: black;
+}
+
+.component-list4 > ol > li {
+  font-size: 2.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.component-list4 > ol > li:hover {
+  transform: translateX(1.5rem);
+}
+
+/* CSS FOR LIST 5 */
+
+.component-list5 {
+  width: 80%;
+  height: 400px;
+  background: white;
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.component-list5 > ol {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.list-item {
+  background: rgb(5, 5, 5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0.5rem;
+}
+.list-item > img {
+  width: 20%;
+  height: 20%;
+  clip-path: circle(40%);
+  object-fit: contain;
+}
+
+.list-item > p {
+  font-size: 0.8rem;
+}
