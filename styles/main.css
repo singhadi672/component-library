@@ -6,6 +6,7 @@
 @import "cards-all.css";
 @import "avatars-all.css";
 @import "lists-all.css";
+@import "buttons-all.css";
 
 * {
   margin: 0;
