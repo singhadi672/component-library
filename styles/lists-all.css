@@ -108,7 +108,7 @@
 }
 
 .component-list4 > ol > li:hover {
-  transform: translateX(1.5rem);
+  transform: translateX(0.5rem);
 }
 
 /* CSS FOR LIST 5 */
@@ -141,7 +141,7 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 }
 .list-item > img {
   width: 20%;
@@ -202,4 +202,10 @@
 }
 .border-yellow {
   border-left: 0.5rem solid rgb(238, 255, 0);
+}
+
+@media screen and (max-width: 632px){
+  .list-item{
+    padding: 0;
+  }
 }

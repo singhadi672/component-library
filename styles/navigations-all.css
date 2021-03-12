@@ -102,3 +102,24 @@
   background: rgb(231, 94, 147);
   border-radius: 15px;
 }
+
+@media screen and (max-width: 400px) {
+  .component-nav1 > nav {
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .nav1-list > ol > li {
+    margin: 0.5rem;
+  }
+
+  .component-nav2 > nav {
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .nav2-list > ol > li {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
