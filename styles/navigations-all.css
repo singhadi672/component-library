@@ -103,8 +103,8 @@
   border-radius: 15px;
 }
 
-@media screen and (max-width: 400px) {
-  .component-nav1 > nav {
+@media screen and (max-width: 500px) {
+  .component-nav1 {
     flex-direction: column;
     width: 300px;
   }
@@ -113,7 +113,7 @@
     margin: 0.5rem;
   }
 
-  .component-nav2 > nav {
+  .component-nav2 {
     flex-direction: column;
     width: 300px;
   }
