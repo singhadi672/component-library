@@ -9,6 +9,7 @@
 @import "buttons-all.css";
 @import "navigations-all.css";
 @import "alerts-all.css";
+@import "modals-all.css";
 
 * {
   margin: 0;
