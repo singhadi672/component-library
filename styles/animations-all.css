@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.container {
+.container-animation1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,13 +74,13 @@
   position: relative;
 }
 
-.container {
+.container-animation2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.background {
+.animation-background {
   width: 300px;
   height: 350px;
   background: #f2ad43;
@@ -114,7 +114,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.sunset {
+.animation-sunset {
   height: 100px;
   width: 100px;
   background: #fff58f;
@@ -125,14 +125,14 @@
   transition: all 0.8s ease-in-out;
 }
 
-.background:hover > .left-mountain {
+.animation-background:hover > .left-mountain {
   margin-left: -230px;
 }
 
-.background:hover > .right-mountain {
+.animation-background:hover > .right-mountain {
   margin-left: 130px;
 }
 
-.background:hover > .sunset {
+.animation-background:hover > .animation-sunset {
   margin-top: 50px;
 }
