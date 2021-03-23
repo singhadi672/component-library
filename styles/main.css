@@ -10,6 +10,12 @@
 @import "navigations-all.css";
 @import "alerts-all.css";
 @import "modals-all.css";
+@import "animations-all.css";
+
+html{
+  scroll-behavior: smooth;
+}
+
 
 * {
   margin: 0;
